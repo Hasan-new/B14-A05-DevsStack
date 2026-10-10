@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "A versatile programming language widely used for web development, especially for building interactive and dynamic applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "A strongly typed superset of JavaScript that helps developers build scalable and maintainable applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": 3,
+    "name": "Python",
+    "category": "Language",
+    "description": "A beginner-friendly programming language popular for web development, automation, data science, and artificial intelligence.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 4,
+    "name": "Java",
+    "category": "Language",
+    "description": "A powerful object-oriented programming language commonly used for enterprise applications, backend systems, and Android development.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Enterprise"
+  },
+  {
+    "id": 5,
+    "name": "C++",
+    "category": "Language",
+    "description": "A high-performance programming language used for system software, game development, embedded systems, and competitive programming.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg",
+    "rating": 4.7,
+    "difficulty": "Advanced",
+    "badge": "Powerful"
+  },
+  {
+    "id": 6,
+    "name": "Go",
+    "category": "Backend",
+    "description": "A fast and efficient programming language designed for scalable backend services, cloud applications, and distributed systems.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fast"
+  },
+  {
+    "id": 7,
+    "name": "Rust",
+    "category": "Language",
+    "description": "A modern systems programming language focused on performance, memory safety, and reliability.",
+    "icon": "https://www.svgrepo.com/show/376347/rust.svg",
+    "rating": 4.8,
+    "difficulty": "Advanced",
+    "badge": "Secure"
+  },
+  {
+    "id": 8,
+    "name": "PHP",
+    "category": "Backend",
+    "description": "A server-side scripting language widely used for building dynamic websites, APIs, and web applications.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "rating": 4.5,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Popular"
+  },
+  {
+    "id": 9,
+    "name": "C#",
+    "category": "Language",
+    "description": "A modern object-oriented language developed by Microsoft and commonly used for .NET applications, backend services, and game development.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": 10,
+    "name": "Ruby",
+    "category": "Backend",
+    "description": "A developer-friendly programming language known for its simplicity and commonly used with the Ruby on Rails web framework.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg",
+    "rating": 4.4,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Simple"
+  },
+  {
+    "id": 11,
+    "name": "Kotlin",
+    "category": "Language",
+    "description": "A modern programming language widely used for Android development, backend applications, and multiplatform projects.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Modern"
+  },
+  {
+    "id": 12,
+    "name": "Swift",
+    "category": "Language",
+    "description": "A powerful programming language developed by Apple for building applications across iOS, macOS, watchOS, and other Apple platforms.",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+    "rating": 4.6,
+    "difficulty": "Intermediate",
+    "badge": "Modern"
+  }
+]
