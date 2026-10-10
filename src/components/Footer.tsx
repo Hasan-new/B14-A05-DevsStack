@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-10 md:px-0">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
 
-          {/* Brand Section */}
+         
           <div>
             <a href="/" className="mb-4 flex items-center gap-2">
               <span className="flex h-5 w-5 items-center justify-center rounded bg-fuchsia-500 text-[10px] font-bold text-white">
@@ -22,34 +22,28 @@ const Footer = () => {
             </p>
 
             <div className="mt-4 flex gap-4 text-xs font-medium text-slate-700">
-              <a
-                href="https://github.com"
+              <a href="https://github.com"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pink-500"
-              >
+                className="hover:text-pink-500">
                 GitHub
               </a>
-              <a
-                href="https://twitter.com"
+              <a href="https://twitter.com"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pink-500"
-              >
+                className="hover:text-pink-500">
                 Twitter
               </a>
-              <a
-                href="https://linkedin.com"
+              <a href="https://linkedin.com"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pink-500"
-              >
+                className="hover:text-pink-500">
                 LinkedIn
               </a>
             </div>
           </div>
 
-          {/* Product */}
+    
           <div>
             <h3 className="mb-4 text-[11px] font-bold uppercase tracking-wide text-slate-900">
               Product
@@ -71,7 +65,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h3 className="mb-4 text-[11px] font-bold uppercase tracking-wide text-slate-900">
               Company
@@ -89,7 +82,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Legal */}
+
           <div>
             <h3 className="mb-4 text-[11px] font-bold uppercase tracking-wide text-slate-900">
               Legal
@@ -109,7 +102,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
+    
         <div className="mt-9 flex flex-col gap-4 border-t border-slate-100 pt-5 text-[11px] text-slate-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
