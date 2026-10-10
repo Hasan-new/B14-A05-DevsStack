@@ -20,7 +20,7 @@ const languageFetch = async (): Promise<Ilanguage[]> => {
   return res.json();
 };
 
-// Keep the promise stable between renders
+
 const languagePromise = languageFetch();
 
 function App() {

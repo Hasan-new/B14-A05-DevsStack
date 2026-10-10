@@ -21,7 +21,7 @@ const Footer = () => {
               building modern software.
             </p>
 
-            <div className="mt-4 flex gap-4 text-xs font-medium text-slate-700">
+            <div className="mt-4 flex text-xs font-medium text-slate-700">
               <a href="https://github.com"
                 target="_blank"
                 rel="noreferrer"
@@ -103,7 +103,7 @@ const Footer = () => {
         </div>
 
     
-        <div className="mt-9 flex flex-col gap-4 border-t border-slate-100 pt-5 text-[11px] text-slate-400 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-9 flex flex-col border-t border-slate-100 pt-5 text-[11px] text-slate-400 sm:flex-row sm:items-center sm:justify-between">
           <p>© 2026 Dev Stack. All rights reserved.</p>
 
           <div className="flex gap-5">
