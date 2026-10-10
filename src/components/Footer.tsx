@@ -8,7 +8,7 @@ const Footer = () => {
          
           <div>
             <a href="/" className="mb-4 flex items-center gap-2">
-              <span className="flex h-5 w-5 items-center justify-center rounded bg-fuchsia-500 text-[10px] font-bold text-white">
+              <span className="flex h-5 items-center justify-center rounded bg-fuchsia-500 text-[10px] font-bold text-white">
                 DS
               </span>
               <span className="text-sm font-bold text-slate-900">

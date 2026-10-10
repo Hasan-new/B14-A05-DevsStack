@@ -1,4 +1,4 @@
-import React from "react";
+
 import Logo from "../assets/logo-text.png";
 
 const Navbar = () => {
@@ -16,10 +16,10 @@ const Navbar = () => {
         </ul>
 
         <div className="flex gap-2">
-          <button className="px-4 py-2">Warning</button>
+          <button className="px-4 py-2">Sign In</button>
 
           <button className="rounded bg-[#D91B7E] px-4 py-2 text-white">
-            Error
+            Sign Up
           </button>
         </div>
       </div>
