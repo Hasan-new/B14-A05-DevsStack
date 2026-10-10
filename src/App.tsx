@@ -7,6 +7,7 @@ import type { Ilanguage } from "./types/languageType";
 
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/Footer";
 
 // Fetch technology data
 const languageFetch = async (): Promise<Ilanguage[]> => {
@@ -32,13 +33,13 @@ function App() {
         <Languages languagePromise={languagePromise} />
       </Suspense>
 
-      {/* Keep only ONE ToastContainer */}
       <ToastContainer
         position="top-right"
         autoClose={2500}
         newestOnTop
         theme="colored"
       />
+      <Footer />
     </>
   );
 }
