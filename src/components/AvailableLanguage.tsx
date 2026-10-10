@@ -14,7 +14,7 @@ const AvailableLanguage = ({
 }: AvailableLanguageProps) => {
   const [stack, setStack] = useState<Ilanguage[]>([]);
 
-  // Add technology
+  
   const handleAddToStack = (language: Ilanguage) => {
     const alreadyAdded = stack.some(
       (item) => item.id === language.id
@@ -33,7 +33,7 @@ const AvailableLanguage = ({
     toast.success("Added to Stack!");
   };
 
-  // Remove one technology
+
   const handleRemoveFromStack = (id: number) => {
     const technology = stack.find(
       (item) => item.id === id
@@ -48,7 +48,7 @@ const AvailableLanguage = ({
     toast.info(`${technology.name} removed from your stack!`);
   };
 
-  // Remove all technologies
+
   const handleRemoveAll = () => {
     if (stack.length === 0) {
       toast.warning("Your stack is already empty!");
@@ -73,7 +73,7 @@ const AvailableLanguage = ({
               key={language.id}
               className="card w-full bg-base-100 shadow-sm"
             >
-              {/* Icon and Badge */}
+             
               <div className="flex items-center justify-between px-6 pt-6">
                 <figure className="h-16 w-16">
                   <img
@@ -88,7 +88,7 @@ const AvailableLanguage = ({
                 </span>
               </div>
 
-              {/* Card Body */}
+        
               <div className="card-body mb-4">
                 <h2 className="card-title">
                   {language.name}
@@ -96,7 +96,7 @@ const AvailableLanguage = ({
 
                 <p>{language.description}</p>
 
-                {/* Technology Details */}
+             
                 <div className="flex flex-wrap items-center gap-3 text-sm">
                   <span>{language.category}</span>
                   <span>{language.difficulty}</span>
@@ -107,7 +107,7 @@ const AvailableLanguage = ({
                   </span>
                 </div>
 
-                {/* Add to Stack */}
+            
                 <div className="card-actions mt-6">
                   <button
                     type="button"
@@ -127,7 +127,7 @@ const AvailableLanguage = ({
         })}
       </div>
 
-      {/* Your Stack */}
+      
       <YourStack
         stack={stack}
         onRemove={handleRemoveFromStack}

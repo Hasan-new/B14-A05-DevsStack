@@ -15,7 +15,7 @@ const YourStack = ({
   return (
     <div className="col-span-1">
       <div className="rounded-xl bg-white p-5 shadow-sm">
-        {/* Heading and Count */}
+       
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-bold">Your Stack</h2>
 
@@ -28,17 +28,15 @@ const YourStack = ({
           Your selected technologies will appear here.
         </p>
 
-        {/* Remove All */}
         <button
           type="button"
           onClick={onRemoveAll}
           disabled={stack.length === 0}
-          className="mt-4 w-full rounded-lg bg-red-500 px-4 py-2 text-white hover:bg-red-600 disabled:cursor-not-allowed disabled:bg-gray-300"
-        >
+          className="mt-4 w-full rounded-lg bg-red-500 px-4 py-2 text-white hover:bg-red-600 disabled:cursor-not-allowed disabled:bg-gray-300">
           Remove All
         </button>
 
-        {/* Stack Items */}
+  
         <div className="mt-5 space-y-3">
           {stack.length === 0 ? (
             <p className="text-gray-400">
@@ -50,7 +48,7 @@ const YourStack = ({
                 key={language.id}
                 className="flex items-center justify-between gap-2 rounded-lg bg-slate-50 p-3"
               >
-                {/* Icon and Information */}
+               
                 <div className="flex min-w-0 items-center gap-3">
                   <img
                     src={language.icon}
@@ -69,13 +67,12 @@ const YourStack = ({
                   </div>
                 </div>
 
-                {/* Remove One */}
+                
                 <button
                   type="button"
                   onClick={() => onRemove(language.id)}
                   aria-label={`Remove ${language.name}`}
-                  className="shrink-0 rounded-full px-2 py-1 text-red-500 hover:bg-red-100"
-                >
+                  className="shrink-0 rounded-full px-2 py-1 text-red-500 hover:bg-red-100">
                   ✕
                 </button>
               </div>

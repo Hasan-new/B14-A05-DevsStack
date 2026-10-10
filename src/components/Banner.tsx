@@ -18,7 +18,7 @@ const Banner = () => {
           your next project.
         </p>
 
-        {/* test  */}
+        
         <div className="flex gap-4">
           <button className="bg-orange-500 text-white px-5 py-3 rounded-lg">
             Explore Technologies
@@ -28,7 +28,7 @@ const Banner = () => {
             Learn More
           </button>
         </div>
-        {/* test  */}
+
       </div>
       <div className="banner-image items-center justify-center">
         <img src={BannerImage} alt="Banner Image" />
