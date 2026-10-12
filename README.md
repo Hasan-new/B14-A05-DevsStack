@@ -1,75 +1,177 @@
-# React + TypeScript + Vite
+# 🚀 DevStack — Technology Stack Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Build your ideal tech stack, one technology at a time.**
 
-Currently, two official plugins are available:
+DevStack is a responsive web application that helps developers explore popular programming languages, frameworks, tools, and other technologies, then build a personalized technology stack based on their needs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Explore Technologies:** Browse technology cards with icons, descriptions, categories, ratings, and difficulty levels.
+- **Add to Stack:** Add your favorite technologies to your personal stack.
+- **Remove from Stack:** Remove individual technologies whenever you want.
+- **Remove All:** Clear your selected stack at once.
+- **Duplicate Prevention:** Prevents the same technology from being added more than once.
+- **Interactive Feedback:** Displays toast notifications for successful actions, duplicate selections, and removals.
+- **Stack Counter:** Shows the number of technologies currently selected.
+- **Responsive Design:** Works across desktop, tablet, and mobile devices.
+- **Modern UI:** Built with Tailwind CSS and DaisyUI for a clean, consistent interface.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+| Technology | Purpose |
+|---|---|
+| React | Building reusable UI components |
+| TypeScript | Type safety and maintainable code |
+| Vite | Development server and build tool |
+| Tailwind CSS | Utility-first styling |
+| DaisyUI | Prebuilt UI components |
+| React Toastify | Toast notifications |
+| JavaScript (ES6+) | Application logic |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 📸 Project Overview
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+DevStack provides an interactive interface where users can explore available technologies and create their own technology stack.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Each technology card displays relevant information, such as its name, icon, category, difficulty level, and rating. Users can add technologies to their stack and remove them whenever necessary.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📂 Project Structure
 
+```text
+B14-A05-DevStack/
+├── public/
+│   └── data.json
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Banner.tsx
+│   │   ├── Footer.tsx
+│   │   ├── AvailableLanguage.tsx
+│   │   ├── languages/
+│   │   │   └── Languages.tsx
+│   │   └── YourStack.tsx
+│   ├── types/
+│   │   └── languageType.ts
+│   ├── App.tsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+*Note: The structure above is illustrative. Adjust the file names and folders to match your actual project.*
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## ⚙️ Installation and Setup
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Follow these steps to run DevStack locally.
 
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) (recommended)
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
 ```
+
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
+
+### 2. Open the Project Folder
+
+```bash
+cd B14-A05-DevStack
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal, usually:
+
+```text
+http://localhost:5173
+```
+
+### 5. Build for Production
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🌐 Deployment
+
+DevStack can be deployed using platforms such as Netlify or Vercel.
+
+### Deploy with Netlify
+
+1. Push your project to GitHub.
+2. Sign in to [Netlify](https://www.netlify.com/).
+3. Select **Add new project** and import your GitHub repository.
+4. Set the build command to `npm run build`.
+5. Set the publish directory to `dist`.
+6. Click **Deploy**.
+
+After deployment, Netlify will provide a public URL for your application.
+
+## 🎯 Project Goals
+
+This project demonstrates practical skills in:
+
+- Building reusable React components.
+- Using TypeScript interfaces and types.
+- Managing state and handling events in React.
+- Working with promises and external JSON data.
+- Rendering dynamic lists and handling unique keys.
+- Implementing add, remove, and duplicate-prevention functionality.
+- Creating responsive layouts with Tailwind CSS.
+- Providing user feedback through toast notifications.
+- Preparing and deploying a production build.
+
+## 🔮 Future Improvements
+
+- Search technologies by name.
+- Filter technologies by category.
+- Sort technologies by rating or difficulty.
+- Save the selected stack using local storage.
+- Add detailed technology information pages.
+- Allow users to export their selected stack.
+
+## 👨‍💻 Author
+
+**Md. Hasan**
+
+Aspiring Professional Web Developer
+
+GitHub: [Your GitHub Profile](YOUR_GITHUB_PROFILE_URL)
+
+LinkedIn: [Your LinkedIn Profile](YOUR_LINKEDIN_PROFILE_URL)
+
+---
+
+⭐ If you find this project useful, consider giving it a star on GitHub.
+
+**Built with React, TypeScript, and a passion for web development.**
