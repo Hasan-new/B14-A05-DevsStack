@@ -175,3 +175,15 @@ LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/mohammad-hasan-73284
 ⭐ If you find this project useful, consider giving it a star on GitHub.
 
 **Built with React, TypeScript, and a passion for web development.**
+---
+
+⭐Questions and answer
+1. What is JSX, and why is it used in React?
+Answer: JSX (JavaScript XML) is a syntax extension for JavaScript that allows us to write HTML-like code inside JavaScript. It is commonly used in React to describe what the user interface (UI) should look like.
+2. Difference between Props and State.
+Answer:
+Props are used to pass data from a parent component to a child component.	State is used to manage data within a component.
+Props are read-only for the receiving component.	State can be updated using a setter function.
+Props are controlled by the parent component.	State is managed by the component that owns it.
+Props help make components reusable.	State helps make components interactive and dynamic.
+Example: name="Hasan"	Example: count = 0
