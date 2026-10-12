@@ -169,7 +169,7 @@ Aspiring Professional Web Developer
 GitHub: [Your GitHub Profile](https://github.com/Hasan-new)
 
 LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/mohammad-hasan-73284291/?isSelfProfile=true)
-Project Link: https://b14-a05-devstack-hasan.netlify.app/
+Project Link:[My project Link] (https://b14-a05-devstack-hasan.netlify.app/)
 ---
 
 ⭐ If you find this project useful, consider giving it a star on GitHub.
