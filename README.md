@@ -81,10 +81,10 @@ Make sure you have installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Hasan-new/B14-A05-DevsStack
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual GitHub repository URL.
+Replace `https://github.com/Hasan-new/B14-A05-DevsStack` with your actual GitHub repository URL.
 
 ### 2. Open the Project Folder
 
